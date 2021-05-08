@@ -8,7 +8,7 @@ interface Props {
 export const ArrayConcepts: React.FC<Props> = ({ ...props }) => {
   return (
     <>
-      <div>{props.displayLabel}</div>
+      <h4>{props.displayLabel}</h4>
     </>
   );
 };
