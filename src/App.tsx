@@ -1,10 +1,12 @@
 // https://www.youtube.com/watch?v=Z5iWr6Srsj8
 import "./styles.css";
+import syllabus from "./utils";
 import { ArrayConcepts } from "./components/arrayConcepts";
+
 export default function App() {
   return (
     <div className="App">
-      <ArrayConcepts displayLabel="Arrays" />
+      <ArrayConcepts displayLabel="Arrays" data={syllabus} />
       <div>
         <br />
         <br />
