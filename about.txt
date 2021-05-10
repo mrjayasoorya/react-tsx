@@ -1,0 +1,84 @@
+Screens:
+
+PUBLIC VIEW:
+
+
+
+Portfolio
+->  Who Am I? What I Do?
+->  Techinical Skills do I have
+    -> FRONT END
+    -> BACK END
+->  Test my skill
+      -> Add links to showcase your skills (Design/Functional/Image Load/Custom Themes) 
+->  Latest explored area
+->  Experience
+->  My AMBITON (ethical hacker and Need to travel all places in INDIA and outer world while I'm young)
+->  Languages I Speak
+
+
+MY DIARY:
+
+
+
+Javascript basic concepts
+-> What I Know
+
+
+SINGLE PAGE APPLICATION
+What is SPA?
+How it works?
+
+Push Notifications
+-> What Is Push Notifications
+-> How Do I Implement Push Notifications
+
+Offline Access
+-> What is offline Access
+-> How to implement offline access and required steps to achive
+
+PWA
+-> What is PWA
+-> Difference between PWA vs SPA
+-> How to implement offline access and required steps to achive
+
+Hooks
+What is hooks?
+Types of hooks
+How do I use hooks
+What is custom hooks?
+Where is custom hooks needed ?
+How to write custom hooks ?
+
+Redux
+What is redux?
+How to use redux?
+
+HOC
+What is HOC?
+What its use and how to implement
+
+WITHOUT CRA
+How to create react app without CRA ?
+  -> Add a link without CRA react app
+
+GIT
+What ?
+how ?
+
+DATASTRUCTURES
+
+ALGORITHMS
+
+PACKAGE BUNDLERS
+What is package bundler?
+How package bundler works?
+Types of package bundlers
+->Rollup
+What ?
+How ?
+Implement with react app?
+->Webpack
+What ?
+How ?
+Implement with react app?
