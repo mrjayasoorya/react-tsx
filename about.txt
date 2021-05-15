@@ -1,3 +1,12 @@
+// IMPORTANT
+
+Learning javascript concepts
+Typescript react folder structure
+Implement diary for typescript
+
+
+
+
 Screens:
 
 PUBLIC VIEW:

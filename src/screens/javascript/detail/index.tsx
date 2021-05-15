@@ -1,14 +1,12 @@
 import React from "react";
 import { Button, Grid, Typography } from "@material-ui/core";
-import { routes } from "../../routes/routes";
-import syllabus from "../../utils";
-import { RouteComponentProps } from "react-router-dom";
+import { routes } from "../../../routes/routes";
 
 interface syllabuses {
   data: { [key: string]: "" };
 }
 
-interface javascriptSyllabus extends RouteComponentProps<any> {
+interface javascriptSyllabus {
   data?: {
     [key: string]: Array;
   };
@@ -20,7 +18,7 @@ const Syllabus: React.FC<syllabuses> = (props) => {
       <Button
         variant="contained"
         color="primary"
-        href={`${routes.javascript}/list${props?.data?.link}`}
+        href={`${routes.javascript}${props?.data?.link}`}
       >
         <Typography variant="subtitle2">{props?.data?.title}</Typography>
       </Button>
@@ -32,7 +30,7 @@ interface MyState {
   displaText: string;
 }
 
-export class JavascriptSyllabus extends React.Component<
+export class JavascriptSyllabusDetail extends React.Component<
   javascriptSyllabus,
   MyState
 > {
@@ -41,12 +39,12 @@ export class JavascriptSyllabus extends React.Component<
   };
   render() {
     let syllabuses =
-      syllabus?.allConcepts?.constructor === Array ? syllabus?.allConcepts : [];
+      this.props?.data?.constructor === Array ? this.props?.data : [];
     return (
       <Grid container>
         <Grid item xs={12}>
           <Typography variant="h6" component="h6">
-            Javascript Concepts
+            Javascript Concepts Detail
           </Typography>
         </Grid>
         <Grid
